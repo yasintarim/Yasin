@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A33871F11390459500217B64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33871F01390459500217B64 /* UIKit.framework */; };
+		A33871F31390459500217B64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33871F21390459500217B64 /* Foundation.framework */; };
+		A33871F51390459500217B64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33871F41390459500217B64 /* CoreGraphics.framework */; };
+		A33871FB1390459500217B64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A33871F91390459500217B64 /* InfoPlist.strings */; };
+		A33871FE1390459500217B64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A33871FD1390459500217B64 /* main.m */; };
+		A33872011390459500217B64 /* YasinAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A33872001390459500217B64 /* YasinAppDelegate.m */; };
+		A33872041390459500217B64 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A33872021390459500217B64 /* MainWindow.xib */; };
+		A338720B1390459500217B64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33871F01390459500217B64 /* UIKit.framework */; };
+		A338720C1390459500217B64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33871F21390459500217B64 /* Foundation.framework */; };
+		A338720D1390459500217B64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33871F41390459500217B64 /* CoreGraphics.framework */; };
+		A33872151390459500217B64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A33872131390459500217B64 /* InfoPlist.strings */; };
+		A33872181390459500217B64 /* YasinTests.h in Resources */ = {isa = PBXBuildFile; fileRef = A33872171390459500217B64 /* YasinTests.h */; };
+		A338721A1390459500217B64 /* YasinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A33872191390459500217B64 /* YasinTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A338720E1390459500217B64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A33871E31390459500217B64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A33871EB1390459500217B64;
+			remoteInfo = Yasin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A33871EC1390459500217B64 /* Yasin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yasin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A33871F01390459500217B64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A33871F21390459500217B64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A33871F41390459500217B64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A33871F81390459500217B64 /* Yasin-Info.plist */ = {isa = PBXFileReference; path = "Yasin-Info.plist"; sourceTree = "<group>"; };
+		A33871FA1390459500217B64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A33871FC1390459500217B64 /* Yasin-Prefix.pch */ = {isa = PBXFileReference; path = "Yasin-Prefix.pch"; sourceTree = "<group>"; };
+		A33871FD1390459500217B64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A33871FF1390459500217B64 /* YasinAppDelegate.h */ = {isa = PBXFileReference; path = YasinAppDelegate.h; sourceTree = "<group>"; };
+		A33872001390459500217B64 /* YasinAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YasinAppDelegate.m; sourceTree = "<group>"; };
+		A33872031390459500217B64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A338720A1390459500217B64 /* YasinTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YasinTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A33872121390459500217B64 /* YasinTests-Info.plist */ = {isa = PBXFileReference; path = "YasinTests-Info.plist"; sourceTree = "<group>"; };
+		A33872141390459500217B64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A33872161390459500217B64 /* YasinTests-Prefix.pch */ = {isa = PBXFileReference; path = "YasinTests-Prefix.pch"; sourceTree = "<group>"; };
+		A33872171390459500217B64 /* YasinTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YasinTests.h; sourceTree = "<group>"; };
+		A33872191390459500217B64 /* YasinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YasinTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A33871E91390459500217B64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33871F11390459500217B64 /* UIKit.framework in Frameworks */,
+				A33871F31390459500217B64 /* Foundation.framework in Frameworks */,
+				A33871F51390459500217B64 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A33872061390459500217B64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A338720B1390459500217B64 /* UIKit.framework in Frameworks */,
+				A338720C1390459500217B64 /* Foundation.framework in Frameworks */,
+				A338720D1390459500217B64 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A33871E11390459500217B64 = {
+			isa = PBXGroup;
+			children = (
+				A33871F61390459500217B64 /* Yasin */,
+				A33872101390459500217B64 /* YasinTests */,
+				A33871EF1390459500217B64 /* Frameworks */,
+				A33871ED1390459500217B64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A33871ED1390459500217B64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A33871EC1390459500217B64 /* Yasin.app */,
+				A338720A1390459500217B64 /* YasinTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A33871EF1390459500217B64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A33871F01390459500217B64 /* UIKit.framework */,
+				A33871F21390459500217B64 /* Foundation.framework */,
+				A33871F41390459500217B64 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A33871F61390459500217B64 /* Yasin */ = {
+			isa = PBXGroup;
+			children = (
+				A33871FF1390459500217B64 /* YasinAppDelegate.h */,
+				A33872001390459500217B64 /* YasinAppDelegate.m */,
+				A33872021390459500217B64 /* MainWindow.xib */,
+				A33871F71390459500217B64 /* Supporting Files */,
+			);
+			path = Yasin;
+			sourceTree = "<group>";
+		};
+		A33871F71390459500217B64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A33871F81390459500217B64 /* Yasin-Info.plist */,
+				A33871F91390459500217B64 /* InfoPlist.strings */,
+				A33871FC1390459500217B64 /* Yasin-Prefix.pch */,
+				A33871FD1390459500217B64 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A33872101390459500217B64 /* YasinTests */ = {
+			isa = PBXGroup;
+			children = (
+				A33872171390459500217B64 /* YasinTests.h */,
+				A33872191390459500217B64 /* YasinTests.m */,
+				A33872111390459500217B64 /* Supporting Files */,
+			);
+			path = YasinTests;
+			sourceTree = "<group>";
+		};
+		A33872111390459500217B64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A33872121390459500217B64 /* YasinTests-Info.plist */,
+				A33872131390459500217B64 /* InfoPlist.strings */,
+				A33872161390459500217B64 /* YasinTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A33871EB1390459500217B64 /* Yasin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A338721D1390459500217B64 /* Build configuration list for PBXNativeTarget "Yasin" */;
+			buildPhases = (
+				A33871E81390459500217B64 /* Sources */,
+				A33871E91390459500217B64 /* Frameworks */,
+				A33871EA1390459500217B64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yasin;
+			productName = Yasin;
+			productReference = A33871EC1390459500217B64 /* Yasin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A33872091390459500217B64 /* YasinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A33872201390459500217B64 /* Build configuration list for PBXNativeTarget "YasinTests" */;
+			buildPhases = (
+				A33872051390459500217B64 /* Sources */,
+				A33872061390459500217B64 /* Frameworks */,
+				A33872071390459500217B64 /* Resources */,
+				A33872081390459500217B64 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A338720F1390459500217B64 /* PBXTargetDependency */,
+			);
+			name = YasinTests;
+			productName = YasinTests;
+			productReference = A338720A1390459500217B64 /* YasinTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A33871E31390459500217B64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = YKB;
+			};
+			buildConfigurationList = A33871E61390459500217B64 /* Build configuration list for PBXProject "Yasin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A33871E11390459500217B64;
+			productRefGroup = A33871ED1390459500217B64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A33871EB1390459500217B64 /* Yasin */,
+				A33872091390459500217B64 /* YasinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A33871EA1390459500217B64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33871FB1390459500217B64 /* InfoPlist.strings in Resources */,
+				A33872041390459500217B64 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A33872071390459500217B64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33872151390459500217B64 /* InfoPlist.strings in Resources */,
+				A33872181390459500217B64 /* YasinTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A33872081390459500217B64 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A33871E81390459500217B64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33871FE1390459500217B64 /* main.m in Sources */,
+				A33872011390459500217B64 /* YasinAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A33872051390459500217B64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A338721A1390459500217B64 /* YasinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A338720F1390459500217B64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A33871EB1390459500217B64 /* Yasin */;
+			targetProxy = A338720E1390459500217B64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A33871F91390459500217B64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A33871FA1390459500217B64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A33872021390459500217B64 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A33872031390459500217B64 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A33872131390459500217B64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A33872141390459500217B64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A338721B1390459500217B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A338721C1390459500217B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		A338721E1390459500217B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yasin/Yasin-Prefix.pch";
+				INFOPLIST_FILE = "Yasin/Yasin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A338721F1390459500217B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yasin/Yasin-Prefix.pch";
+				INFOPLIST_FILE = "Yasin/Yasin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A33872211390459500217B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Yasin.app/Yasin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YasinTests/YasinTests-Prefix.pch";
+				INFOPLIST_FILE = "YasinTests/YasinTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A33872221390459500217B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Yasin.app/Yasin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YasinTests/YasinTests-Prefix.pch";
+				INFOPLIST_FILE = "YasinTests/YasinTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A33871E61390459500217B64 /* Build configuration list for PBXProject "Yasin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A338721B1390459500217B64 /* Debug */,
+				A338721C1390459500217B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A338721D1390459500217B64 /* Build configuration list for PBXNativeTarget "Yasin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A338721E1390459500217B64 /* Debug */,
+				A338721F1390459500217B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A33872201390459500217B64 /* Build configuration list for PBXNativeTarget "YasinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A33872211390459500217B64 /* Debug */,
+				A33872221390459500217B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A33871E31390459500217B64 /* Project object */;
+}
