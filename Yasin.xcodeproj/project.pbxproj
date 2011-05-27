@@ -13,7 +13,6 @@
 		A33871FB1390459500217B64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A33871F91390459500217B64 /* InfoPlist.strings */; };
 		A33871FE1390459500217B64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A33871FD1390459500217B64 /* main.m */; };
 		A33872011390459500217B64 /* YasinAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A33872001390459500217B64 /* YasinAppDelegate.m */; };
-		A33872041390459500217B64 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A33872021390459500217B64 /* MainWindow.xib */; };
 		A338720B1390459500217B64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33871F01390459500217B64 /* UIKit.framework */; };
 		A338720C1390459500217B64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33871F21390459500217B64 /* Foundation.framework */; };
 		A338720D1390459500217B64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33871F41390459500217B64 /* CoreGraphics.framework */; };
@@ -37,17 +36,16 @@
 		A33871F01390459500217B64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A33871F21390459500217B64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A33871F41390459500217B64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A33871F81390459500217B64 /* Yasin-Info.plist */ = {isa = PBXFileReference; path = "Yasin-Info.plist"; sourceTree = "<group>"; };
+		A33871F81390459500217B64 /* Yasin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Yasin-Info.plist"; sourceTree = "<group>"; };
 		A33871FA1390459500217B64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A33871FC1390459500217B64 /* Yasin-Prefix.pch */ = {isa = PBXFileReference; path = "Yasin-Prefix.pch"; sourceTree = "<group>"; };
+		A33871FC1390459500217B64 /* Yasin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yasin-Prefix.pch"; sourceTree = "<group>"; };
 		A33871FD1390459500217B64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A33871FF1390459500217B64 /* YasinAppDelegate.h */ = {isa = PBXFileReference; path = YasinAppDelegate.h; sourceTree = "<group>"; };
+		A33871FF1390459500217B64 /* YasinAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YasinAppDelegate.h; sourceTree = "<group>"; };
 		A33872001390459500217B64 /* YasinAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YasinAppDelegate.m; sourceTree = "<group>"; };
-		A33872031390459500217B64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		A338720A1390459500217B64 /* YasinTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YasinTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A33872121390459500217B64 /* YasinTests-Info.plist */ = {isa = PBXFileReference; path = "YasinTests-Info.plist"; sourceTree = "<group>"; };
+		A33872121390459500217B64 /* YasinTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YasinTests-Info.plist"; sourceTree = "<group>"; };
 		A33872141390459500217B64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A33872161390459500217B64 /* YasinTests-Prefix.pch */ = {isa = PBXFileReference; path = "YasinTests-Prefix.pch"; sourceTree = "<group>"; };
+		A33872161390459500217B64 /* YasinTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YasinTests-Prefix.pch"; sourceTree = "<group>"; };
 		A33872171390459500217B64 /* YasinTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YasinTests.h; sourceTree = "<group>"; };
 		A33872191390459500217B64 /* YasinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YasinTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,7 +108,6 @@
 			children = (
 				A33871FF1390459500217B64 /* YasinAppDelegate.h */,
 				A33872001390459500217B64 /* YasinAppDelegate.m */,
-				A33872021390459500217B64 /* MainWindow.xib */,
 				A33871F71390459500217B64 /* Supporting Files */,
 			);
 			path = Yasin;
@@ -218,7 +215,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A33871FB1390459500217B64 /* InfoPlist.strings in Resources */,
-				A33872041390459500217B64 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,14 +282,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		A33872021390459500217B64 /* MainWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A33872031390459500217B64 /* en */,
-			);
-			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
 		A33872131390459500217B64 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -346,7 +334,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Yasin/Yasin-Prefix.pch";
 				INFOPLIST_FILE = "Yasin/Yasin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -359,7 +349,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Yasin/Yasin-Prefix.pch";
 				INFOPLIST_FILE = "Yasin/Yasin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
